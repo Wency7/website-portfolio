@@ -1,6 +1,6 @@
 function Tag({ title }: { title: string }) {
   return (
-    <div className="flex items-center rounded-full bg-[#BDA588ff] px-3 py-1 text-xs font-medium leading-5 text-white mr-2 mb-2">
+    <div className="text-xs font-medium text-white bg-[#BDA588ff] rounded-full px-2 py-1 mr-2">
       {title}
     </div>
   );
