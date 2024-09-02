@@ -106,11 +106,11 @@ export default function GitHubRepos() {
             <p className="text-gray-700 mt-2">
               {repo.description || "No description available"}
             </p>
-            <div className="mt-2">
+            <div className="mt-2 flex flex-wrap lg:flex-nowrap gap-1">
               {languages[repo.id]?.map((language) => (
                 <span
                   key={language}
-                  className="text-xs font-medium text-white bg-[#BDA588ff] rounded-full px-2 py-1 mr-2"
+                  className="flex text-xs font-medium text-white bg-[#BDA588ff] rounded-full px-2 py-1 mr-2 "
                 >
                   {language}
                 </span>
